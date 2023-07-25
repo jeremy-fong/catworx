@@ -1,0 +1,15 @@
+C:\Users\jerem\bootcamp\c#-catworx\CatWorx.BadgeMaker\bin\Debug\net6.0\CatWorx.BadgeMaker.exe
+C:\Users\jerem\bootcamp\c#-catworx\CatWorx.BadgeMaker\bin\Debug\net6.0\CatWorx.BadgeMaker.deps.json
+C:\Users\jerem\bootcamp\c#-catworx\CatWorx.BadgeMaker\bin\Debug\net6.0\CatWorx.BadgeMaker.runtimeconfig.json
+C:\Users\jerem\bootcamp\c#-catworx\CatWorx.BadgeMaker\bin\Debug\net6.0\CatWorx.BadgeMaker.dll
+C:\Users\jerem\bootcamp\c#-catworx\CatWorx.BadgeMaker\bin\Debug\net6.0\CatWorx.BadgeMaker.pdb
+C:\Users\jerem\bootcamp\c#-catworx\CatWorx.BadgeMaker\obj\Debug\net6.0\CatWorx.BadgeMaker.csproj.AssemblyReference.cache
+C:\Users\jerem\bootcamp\c#-catworx\CatWorx.BadgeMaker\obj\Debug\net6.0\CatWorx.BadgeMaker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jerem\bootcamp\c#-catworx\CatWorx.BadgeMaker\obj\Debug\net6.0\CatWorx.BadgeMaker.AssemblyInfoInputs.cache
+C:\Users\jerem\bootcamp\c#-catworx\CatWorx.BadgeMaker\obj\Debug\net6.0\CatWorx.BadgeMaker.AssemblyInfo.cs
+C:\Users\jerem\bootcamp\c#-catworx\CatWorx.BadgeMaker\obj\Debug\net6.0\CatWorx.BadgeMaker.csproj.CoreCompileInputs.cache
+C:\Users\jerem\bootcamp\c#-catworx\CatWorx.BadgeMaker\obj\Debug\net6.0\CatWorx.BadgeMaker.dll
+C:\Users\jerem\bootcamp\c#-catworx\CatWorx.BadgeMaker\obj\Debug\net6.0\refint\CatWorx.BadgeMaker.dll
+C:\Users\jerem\bootcamp\c#-catworx\CatWorx.BadgeMaker\obj\Debug\net6.0\CatWorx.BadgeMaker.pdb
+C:\Users\jerem\bootcamp\c#-catworx\CatWorx.BadgeMaker\obj\Debug\net6.0\CatWorx.BadgeMaker.genruntimeconfig.cache
+C:\Users\jerem\bootcamp\c#-catworx\CatWorx.BadgeMaker\obj\Debug\net6.0\ref\CatWorx.BadgeMaker.dll
