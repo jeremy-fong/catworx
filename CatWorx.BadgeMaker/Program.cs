@@ -6,36 +6,26 @@ namespace CatWorx.BadgeMaker
 {
   class Program
   {
-    static List<Employee> GetEmployees()
-    {
-        List<Employee> employees = new List<Employee>();
-        while (true)
-        {
-        Console.WriteLine("Please enter a name: (leave empty to exit): ");
-        string firstName = Console.ReadLine() ?? "";
-        if (firstName == "")
-        {
-            break;
-        }
-        Console.WriteLine("Enter last name: ");
-        string lastName = Console.ReadLine() ?? "";
-        Console.WriteLine("Enter ID: ");
-        int id = Int32.Parse(Console.ReadLine() ?? "");
-        Console.WriteLine("Enter Photo URL: ");
-        string photoUrl = Console.ReadLine() ?? "";
-        // Create a new Employee instance
-        Employee currentEmployee = new Employee(firstName, lastName, id, photoUrl);
-          // Add currentEmployee, not a string
-        employees.Add(currentEmployee);
-        }
-        return employees;
-    }
     async static Task Main(string[] args)
     {
-        List<Employee> employees = GetEmployees();
+        List<Employee> employees = new List<Employee>();
+
+        Console.WriteLine("Welcome to the CatWorx BadgeMaker Program!");
+        Console.WriteLine("Do you want to manually enter employees? (Enter Y or y to proceed or leave blank to proceed with random data)");
+        string answer = Console.ReadLine() ?? "";
+        if (answer == "y" || answer == "Y")
+        {
+          employees = PeopleFetcher.GetEmployees();
+        }
+        else
+        {
+          Console.WriteLine("Generating 10 badges using an API that provides random data");
+          employees = await PeopleFetcher.GetFromApi();
+        }
         Util.PrintEmployees(employees);
         Util.MakeCSV(employees);
         await Util.MakeBadges(employees);
+        Console.WriteLine("Badges and CSV files complete, check data folder");
     }
   }
 }
